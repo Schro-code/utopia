@@ -1641,7 +1641,6 @@ export const en = {
     deleteBlocked: "In use — cannot delete",
     /* ---- OWL / RDFS 导入 ---- */
     importShort: "Import",
-    exportShort: "Export",
     importTitle: "Import an ontology",
     importHint: "Import an OWL or RDFS file (.owl, .rdf, .ttl). Classes and properties are matched by IRI, so importing a newer version of the same vocabulary updates what is already here.",
     importPick: "Choose file",
@@ -2365,6 +2364,9 @@ export const en = {
     requeue: "Run again",
     requeued: (n: number) =>
       n === 1 ? "1 job back in the queue" : `${n} jobs back in the queue`,
+    exportKb: "Export knowledge base (RDF)",
+    exportKbNote: "Download every fact and its provenance as a Turtle file.",
+    exportKbAction: "Export",
     /* 语料语言。措辞要把"这不是界面语言"讲清楚，否则一定有人当成界面开关 */
     cardIdentity: "Name and description",
     cardIdentityNote:

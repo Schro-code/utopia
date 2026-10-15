@@ -1454,7 +1454,6 @@ export const zh: Strings = {
     delete: "删除",
     deleteBlocked: "在用中——无法删除",
     importShort: "导入",
-    exportShort: "导出",
     importTitle: "导入本体",
     importHint: "导入 OWL 或 RDFS 文件（.owl、.rdf、.ttl）。类与属性按 IRI 匹配，导入同一份词汇表的新版本会更新已有的，不会再进一份。",
     importPick: "选择文件",
@@ -2070,6 +2069,9 @@ export const zh: Strings = {
     failedJobs: (n: number) => `${n} 个失败的任务`,
     requeue: "再跑一遍",
     requeued: (n: number) => `${n} 个任务回到队列`,
+    exportKb: "导出整个知识库（RDF）",
+    exportKbNote: "把所有事实及其出处下载为 Turtle 文件。",
+    exportKbAction: "导出",
     cardIdentity: "名字与描述",
     cardIdentityNote: "最长 64 个字符。切换器和这个库每一页的顶上用的都是它。",
     cardVisibilityNote:
